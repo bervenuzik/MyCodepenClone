@@ -1,0 +1,64 @@
+$header-height:40px;
+$editor-height:33.3%;
+.editor{
+    
+    flex-direction: column;
+    height:$editor-height;
+    min-height: $header-height;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+   
+}
+.editor__header{
+    height: $header-height;
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 3px;
+    
+    box-sizing: border-box;
+}
+.editorPanel{
+    box-sizing: border-box !important;
+    height: 100%  !important;   
+}
+.collapse{
+    height: 100px;
+}
+.CodeMirror-scroll{
+    padding: 0 !important;
+}
+
+.last{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.middle{
+    min-height: calc(#{$header-height} * 2);
+    z-index: 5;
+}
+.movingButton{
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.transition{
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+

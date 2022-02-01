@@ -1,0 +1,55 @@
+html {
+  max-height: 100vh;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.mainWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.panel {
+  position: relative;
+  height: 100vh;
+}
+
+.top-panel {
+  background-color: #272727;
+  max-height: 100vh;
+  width: 300px;
+}
+
+.bottom-panel {
+  background-color: white;
+  width: calc(100% - 300px);
+}
+
+.CodeMirror-scroll {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  padding-bottom: 5px !important;
+  margin: 0 !important;
+  height: 100% !important;
+}
+
+.react-codemirror2 {
+  height: 100% !important;
+}
+
+.CodeMirror {
+  height: 100% !important;
+  font-size: 0.7rem;
+}
+
+.CodeMirror-sizer {
+  border-right: 20px solid transparent !important;
+}
+/*# sourceMappingURL=App.css.map */

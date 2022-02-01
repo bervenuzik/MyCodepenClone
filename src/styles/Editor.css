@@ -1,0 +1,78 @@
+.editor {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 33.3%;
+  min-height: 40px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.editor__header {
+  height: 40px;
+  background-color: #050505;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.editorPanel {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  height: 100%  !important;
+}
+
+.collapse {
+  height: 100px;
+}
+
+.CodeMirror-scroll {
+  padding: 0 !important;
+}
+
+.last {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.middle {
+  min-height: calc(40px * 2);
+  z-index: 5;
+}
+
+.movingButton {
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.transition {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/*# sourceMappingURL=Editor.css.map */

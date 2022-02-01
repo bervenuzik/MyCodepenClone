@@ -1,0 +1,49 @@
+
+html{
+    max-height: 100vh;
+    font-size: 18px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    height: 100vh;
+    //position: fixed;
+  }
+  .mainWrapper{
+    display: flex;
+  }
+  .panel{
+    position: relative;
+    height: 100vh;
+    
+  }
+  
+  .top-panel{
+    background-color: rgb(39, 39, 39);
+    max-height: 100vh;
+    width: 300px;
+  }
+  
+  .bottom-panel{
+    background-color: rgb(255, 255, 255);
+    width: calc(100% - 300px);
+  }
+  .CodeMirror-scroll{
+    box-sizing: border-box !important;
+    padding-bottom: 5px !important ;
+   
+    margin: 0 !important;
+    height: 100% !important;
+  }
+  .react-codemirror2 {
+    height: 100% !important;
+  }
+  .CodeMirror{
+    height: 100% !important;
+    font-size: 0.7rem;
+  }
+  .CodeMirror-sizer{
+    border-right: 20px solid transparent !important;
+  }
+  
